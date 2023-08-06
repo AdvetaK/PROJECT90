@@ -1,0 +1,11 @@
+.body{
+    background-color: aquamarine;
+    color: rgb(0, 0, 109);
+}
+
+.div{
+    background-color: black; 
+    color: aliceblue; 
+    padding: 10px;
+     margin: 10px;
+}

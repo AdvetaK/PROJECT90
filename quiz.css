@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input{
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+}
+
+#output{
+    background-color: white;
+    border-radius: 10px;
+    border-top: 10px solid plum;
+    padding: 10px;
+    float: none;
+    text-align: left;
+    color: blue;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+span{
+    font-size: medium;
+}

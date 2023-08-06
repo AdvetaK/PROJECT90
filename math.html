@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>THE MATH QUIZ GAME</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="math.css">
+
+<script src="math.js"></script>
+</head>
+<body style="background-color: rgb(0, 0, 66); color: whitesmoke;">
+	<center>
+		<h1>THE MATH QUIZ</h1>
+		<div style="background-color: black; color: aliceblue; padding: 30px; margin: 10px;">
+			<h3>Player 1 Login for the game</h3>
+			<label>Username : </label>
+			<input type="text" id="player1_name" class="form-control" placeholder="Username for Player 1">
+			<br>
+		</div>
+		<br>
+		<div style="background-color: black; color: aliceblue; padding: 30px; margin: 10px;">
+			<h3>Player 2 Login for the game</h3>
+			<label>Username : </label>
+			<input type="text" id="player2_name" class="form-control" placeholder="Username for Player 2">
+			<br>
+		</div>
+		<br>
+		<button class="btn btn-danger" onclick="addUser()" style="width:30%">Login for the game</button>
+	</center>
+</body>
+</html>
